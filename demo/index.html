@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>pdf-browser-viewer demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+
+    <link rel="import" href="../pdf-browser-viewer.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </head>
+  <body>
+
+    <div class="vertical-section-container">
+      <h3>Basic pdf-browser-viewer Demo</h3>
+      <demo-snippet width="100%">
+        <template>
+          <pdf-browser-viewer
+                  file="http://www.pdf995.com/samples/pdf.pdf"
+                  width="100%">
+          </pdf-browser-viewer>
+        </template>
+      </demo-snippet>
+    </div>
+
+  </body>
+</html>
