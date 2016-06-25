@@ -1,6 +1,19 @@
 {
   "name": "pdf-browser-viewer",
   "description": "PDF viewer using native browser object as application/pdf",
+  "version": "1.0.0",
+  "authors": [
+    "The Ingresso Rápido Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "web-component",
+    "polymer",
+    "pdf",
+    "pdf-viewer",
+    "pdf-object",
+    "pdf-render"
+  ],
   "main": "pdf-browser-viewer.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",
