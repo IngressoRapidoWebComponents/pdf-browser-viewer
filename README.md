@@ -2,7 +2,7 @@
 
 PDF viewer using native browser object as application/pdf
 
-_[Demo and API docs](https://elements.polymer-project.org/elements/paper-button)_
+_[Demo and API docs](https://ingressorapidowebcomponents.github.io/components/pdf-browser-viewer/)_
 
 ## Install the Polymer-CLI
 
