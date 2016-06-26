@@ -1,9 +1,10 @@
 {
   "name": "pdf-browser-viewer",
   "description": "PDF viewer using native browser object as application/pdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "homepage": "https://ingressorapidowebcomponents.github.io/components/pdf-browser-viewer/",
   "authors": [
-    "The Ingresso Rápido Authors"
+    "Andrew Willard (https://github.com/andrew-silva-movile)"
   ],
   "keywords": [
     "web-components",

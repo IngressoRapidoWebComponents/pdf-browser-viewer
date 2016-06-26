@@ -1,40 +1,10 @@
+[![bower version](https://img.shields.io/bower/v/pdf-browser-viewer.svg)](https://libraries.io/bower/pdf-browser-viewer)
+[![open issues](https://img.shields.io/github/issues/IngressoRapidoWebComponents%2Fpdf-browser-viewer.svg)](https://github.com/IngressoRapidoWebComponents/pdf-browser-viewer/issues)
+[![license](https://img.shields.io/github/license/IngressoRapidoWebComponents%2Fpdf-browser-viewer.svg)](https://github.com/IngressoRapidoWebComponents/pdf-browser-viewer/blob/master/LICENSE)
+
+
 # \<pdf-browser-viewer\>
 
 PDF viewer using native browser object as application/pdf
 
 _[Demo and API docs](https://ingressorapidowebcomponents.github.io/components/pdf-browser-viewer/)_
-
-## Install the Polymer-CLI
-
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
-
-## Viewing Your Application
-
-```
-$ polymer serve
-```
-
-## Building Your Application
-
-```
-$ polymer build
-```
-
-This will create a `build/` folder with `bundled/` and `unbundled/` sub-folders
-containing a bundled (Vulcanized) and unbundled builds, both run through HTML,
-CSS, and JS optimizers.
-
-You can serve the built versions by giving `polymer serve` a folder to serve
-from:
-
-```
-$ polymer serve build/bundled
-```
-
-## Running Tests
-
-```
-$ polymer test
-```
-
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
