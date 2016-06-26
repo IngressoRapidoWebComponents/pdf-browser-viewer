@@ -1,7 +1,7 @@
 {
   "name": "pdf-browser-viewer",
   "description": "PDF viewer using native browser object as application/pdf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "The Ingresso Rápido Authors"
   ],
