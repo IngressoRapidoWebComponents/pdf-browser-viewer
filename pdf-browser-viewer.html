@@ -20,6 +20,11 @@ Example:
     <pdf-browser-viewer id="pdfViewer" file="[[pdfUrl]]" width="100%"></pdf-browser-viewer>
 ```
 
+Data Bind with Blob example:
+```js
+    this.pdfUrl = URL.createObjectURL(blob);
+```
+
 Clear PDF container example:
 ```js
     this.$.pdfViewer.clear();
