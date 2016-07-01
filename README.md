@@ -8,3 +8,36 @@
 PDF viewer using native browser object as application/pdf
 
 _[Demo and API docs](https://ingressorapidowebcomponents.github.io/components/pdf-browser-viewer/)_
+
+Example:
+```html
+    <pdf-browser-viewer id="pdfViewer" file="[[pdfUrl]]" width="100%"></pdf-browser-viewer>
+```
+
+Data Bind with Blob example:
+```js
+    this.pdfUrl = URL.createObjectURL(blob);
+```
+
+Clear PDF container example:
+```js
+    this.$.pdfViewer.clear();
+```
+
+Message example:
+```html
+    <pdf-browser-viewer
+        file="[[pdfUrl]]"
+        not-supported-message="Not supported by your browser"
+        not-supported-link-message="see the file here!">
+    </pdf-browser-viewer>
+```
+
+Card example:
+```html
+    <pdf-browser-viewer
+        file="[[pdfUrl]]"
+        card elevation="3"
+        download-label="Baixar">
+    </pdf-browser-viewer>
+```
